@@ -5,12 +5,12 @@ number = random.randint(-10000, 10000)
 end_val = abs(number) % 10
 
 # Checking the conditions for the last digit
+if number < 0:
+    end_val = -end_val
+print("Last digit of {} is {} and is ".format(number, end_val), end="")
 if end_val > 5:
-    print("Last digit of {} is {} and is greater than 5".formwat(number, end_val))
+    print("greater than 5")
 elif end_val == 0:
-    print("Last digit of {} is {} and is 0".format(number, end_val))
+    print("0")
 else:
-    print("Last digit of {} is {} and is less than 6 and not 0".format(number, end_val))
-
-# Printing a new line
-print()
+    print("less than 6 and not 0")
