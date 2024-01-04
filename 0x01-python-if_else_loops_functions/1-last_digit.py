@@ -12,7 +12,7 @@ print(f"the string is {last_digit},", end=" ")
 # Checking the conditions for the last digit
 if end_val > 5:
     print("and is greater than 5")
-elif last_digit == 0:
+elif end_val == 0:
     print("and is 0")
 else:
     print(f"and is less than 6 and not 0")
