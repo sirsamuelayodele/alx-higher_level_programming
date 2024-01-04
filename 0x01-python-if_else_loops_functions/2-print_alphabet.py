@@ -3,4 +3,4 @@
 # Author: sirsamuelayodele of ASA
 
 for alph in range(97, 123):
-    print("{}".format(chr(alph)), end="")
+    print("{}".format(chr(alph)))
